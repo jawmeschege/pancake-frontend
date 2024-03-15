@@ -6,6 +6,7 @@ crypto-swap-plugin/
 │   ├── admin-pages.php    # Admin pages for setup and configuration
 │   └── onboarding.php     # Onboarding wizard logic
 │
+{
 ├── includes/
 │   ├── api-integration.php    # Handles API integration with crypto exchanges
 │   ├── shortcodes.php    # Shortcode implementation for integrating Next.js app
