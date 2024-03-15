@@ -1,4 +1,4 @@
-# 🥞 Crypto-Swap Wordpress Plugin
+
 
 crypto-swap-plugin/
 │
@@ -24,4 +24,5 @@ crypto-swap-plugin/
 │       └── ...
 │
 └── crypto-swap-plugin.php     # Main plugin file
+
 
