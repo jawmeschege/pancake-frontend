@@ -8,11 +8,20 @@ crypto-swap-plugin/
 │
 ├── includes/
 │   ├── api-integration.php    # Handles API integration with crypto exchanges
-│   ├── shortcodes.php    # Shortcode implementation for the swap interface
+│   ├── shortcodes.php    # Shortcode implementation for integrating Next.js app
 │   └── utils.php         # Utility functions for the plugin
 │
+├── nextjs-app/                # Next.js project directory (for development)
+│   ├── pages/
+│   ├── components/
+│   ├── public/
+│   └── ...                   # Standard Next.js project structure
+│
 ├── public/
-│   └── js/
-│       └── swap-interface.js  # JS for handling the frontend swap interface
+│   └── nextjs/                # Built Next.js app for production
+│       ├── _next/
+│       ├── index.html
+│       └── ...
 │
 └── crypto-swap-plugin.php     # Main plugin file
+
